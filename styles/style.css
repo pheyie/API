@@ -1,0 +1,24 @@
+*{
+    padding: none;
+    margin: none;
+}
+
+body{
+     width: 50%;
+    padding: auto;
+    margin: auto;
+    text-align: center;
+}
+
+#def-header{
+    font-weight: bolder;
+    text-transform: uppercase;
+    color: blue;
+    text-shadow: 2px 1px black;
+}
+
+#input-word{
+    border: 0px solid black;
+    text-align: center;
+    box-shadow: 3px 3px 5px aquamarine;
+}
