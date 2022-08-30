@@ -8,6 +8,8 @@ body{
     padding: auto;
     margin: auto;
     text-align: center;
+    background-color: #1e3d59;
+    
 }
 
 #def-header{
@@ -15,10 +17,66 @@ body{
     text-transform: uppercase;
     color: blue;
     text-shadow: 2px 1px black;
+    margin-top: 30%;
 }
 
-#input-word{
+/* #input-word{
     border: 0px solid black;
     text-align: center;
     box-shadow: 3px 3px 5px aquamarine;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-family: cursive;
+} */
+
+#para{
+    margin-top: 30px;
+    padding: 10px;
+}
+
+li{
+    list-style: none;
+}
+
+#word-span{
+    color: blueviolet;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+#def-form{
+    display: flex;
+    border-radius: 5px;
+        box-shadow: 3px 3px 5px aquamarine;
+
+
+}
+
+#input-word{
+    border: none;
+    margin: 0;
+    padding: 7px 8px;
+    border: 1px solid transparent;
+    border-radius: inherit;
+    text-align: center;
+    color: aquamarine;
+}
+
+#input-word::placeholder{
+    color: bisque;
+    text-align: center;
+    font-family: cursive;
+
+
+}
+
+#getter{
+    border: 1px solid transparent;
+    border-radius: inherit;
+    color: brown;
+    /* text-indent: -999px; */
+    overflow: hidden;
+    padding: auto;
+    margin: auto;
+    
 }
